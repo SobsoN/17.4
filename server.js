@@ -16,6 +16,7 @@ app.get('/userform', function (req, res) {
 var server = app.listen(3000, 'localhost', function() {
     var host = server.address().address;
     var port = server.address().port;
+    var lol;
 
     console.log('Przykładowa aplikacja nasłuchuje na http://' + host + ':' + port);
 });
